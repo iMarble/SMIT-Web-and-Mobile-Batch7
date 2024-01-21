@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+</head>
+
+<body>
+    <div>
+        <p id="title">Student Registration Form</p>
+        <div id="navigation">
+            <a href="form.html">Form</a>
+            <a href="table.html">Table</a>
+        </div>
+        <form>
+            <div>
+                <label for="">First Name:</label>
+                <div class="input">
+                    <input type="text" id="Fname" placeholder="Enter your First Name"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Last Name:</label>
+                <div class="input">
+                    <input type="text" id="Lname" placeholder="Enter your last Name"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Email:</label>
+                <div class="input">
+                    <input type="email" id="email" placeholder="It should contain @"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Mobile:</label>
+                <div class="input">
+                    <input type="tel" maxlength="10" id="no" placeholder="Phone Number"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Gender:</label>
+                <div class="input">
+                    <input type="radio" id="Gender" style="width: auto; height: auto;">Male
+                    <input type="radio" id="Gender" style="width: auto; height: auto;">Female<br>
+                </div>
+            </div>
+            <div>
+                <label for="">Date of Birth:</label>
+                <div class="input">
+                    <input type="date" id="dob" placeholder="mm/dd/yyyy"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Address:</label>
+                <div class="input">
+                    <textarea name="" id="" cols="52" rows="10" style="border-radius: 5px;"></textarea><br>
+                </div>
+            </div>
+            <div>
+                <label for="">City:</label>
+                <div class="input">
+                    <input type="text" id="city"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Area Pin:</label>
+                <div class="input">
+                    <input type="text" id="pin"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">State:</label>
+                <div class="input">
+                    <input type="text" id="state"><br>
+                </div>
+            </div>
+            <div>
+                <label for="">Qualification:</label>
+                <div class="input">
+                    <select name="Qualification" id="Qualification">
+                        <option value="">----Select Qualification----</option>
+                        <option value="Matric">Matric</option>
+                        <option value="FSC">FSC</option>
+                    </select>
+                    <br>
+                </div>
+            </div>
+            <div>
+                <label for="">Specialization:</label>
+                <div class="input">
+                    <input type="checkbox" id="CS" value="CS" style="width: auto; height: auto;">
+                    Computer Science<br>
+                    <input type="checkbox" id="IT" value="IT" style="width: auto; height: auto;">
+                    Information technology<br>
+                    <input type="checkbox" id="TC" value = "TC" style="width: auto; height: auto;">
+                    Telecommunication<br>
+                </div>
+            </div>
+            <div>
+                <label for="">Password:</label>
+                <div class="input">
+                    <input type="password" id="password"><br>
+                </div>
+            </div>
+
+            <div>
+                <button>Register Now</button>
+            </div>
+            <br>
+        </form>
+    </div>
+    <footer style="text-align: center;">Made by Abaid ur Rehman with &hearts;</footer>
+</body>
+
+</html>

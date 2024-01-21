@@ -1,0 +1,8 @@
+table{
+    border: 2px rgb(0, 0, 0) solid;
+    min-width: 20px;
+}
+th, td {
+    border: 2px rgb(0, 0, 0) solid;
+    min-width: 20px;
+}

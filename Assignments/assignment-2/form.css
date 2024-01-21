@@ -1,0 +1,60 @@
+/* css for input class */
+.input{
+    width: 70%;
+    display:  inline-block;
+    margin-top: 10px;
+}
+
+/* css for label tag */
+
+label {
+    display: inline-block;
+    width: 15%;
+    margin-left: 10px;
+}
+
+/* css for button tag */
+
+button {
+    background-color: rgb(65, 205, 86);
+    color: white;
+    margin-top: 10px;
+    border-radius: 200px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/* css for form tag */
+form {
+    background-color: silver;
+}
+
+/* css for body tag removing margins from sides*/
+body {
+    margin: 0px
+}
+
+/* css for hyperlinks added at start */
+#navigation {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+
+/* css for the title of the page */
+#title {
+    text-align: right;
+    text-decoration: underline;
+    font-size: x-large;
+    color: red;
+    margin-right: 100px;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+/* css for the input element */
+input {
+    border-radius: 30px;
+    width: 400px;
+    height: 30px;
+}
